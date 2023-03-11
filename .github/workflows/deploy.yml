@@ -3,8 +3,8 @@ name: Deploy Front Production
 on:
   push:
     branch: 'main'
-    paths:
-      - 'www/**'
+    # paths:
+    #   - 'www/**'
 
 jobs:
   deploy:
