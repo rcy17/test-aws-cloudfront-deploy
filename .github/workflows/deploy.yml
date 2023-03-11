@@ -23,7 +23,7 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Deploy
-        uses: lbertenasco/s3-deploy@v1
+        uses: reggionick/s3-deploy@v3
         with:
           folder: www
           bucket: ${{ secrets.S3_BUCKET }}
